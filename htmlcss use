@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta>
+    </meta>
+    <style>
+      form{
+        background-color:rgb(207 21 62 / 87%);
+        text-align: center;
+      }
+      input{
+        font-size:20px;
+        color: green;
+        width: 100px;
+      }
+    </style>
+    </head>
+    <body>
+      <formaction="#" onsubmit="onsignup(event)">
+        <label>Name</label>
+        <br/>
+        <input type="text" name="username"required/>
+        <br/>
+         <label>Email Id</label>
+         <br/>
+         <input type="email" name="email"required/>
+         <br/>
+          <label>Password</label>
+          <br/>
+         <input type="password" name="password"required/>
+         <br/>
+         <button>Sign Up</button>
+         </form>
+         <form>
+           <input/>
+           </form>
+           <script>
+             Function onsignup(event){
+               event.preventDefault();
+               console.log(event.target.username.value)
+             }
+             </script>
+             
+             </body>
+             
+             </html>
+            
+         
+      
